@@ -214,10 +214,8 @@ procedure Tform_menu.btn_alterarClick(Sender: TObject);
 begin
   form_logon.Show;
   Close;
-  usuario_logado := '';
 
-  form_logon.edt_usuario.Clear;
-  form_logon.edt_senha.Clear;
+  usuario_logado := '';
 end;
 
 procedure Tform_menu.btn_fecharClick(Sender: TObject);
