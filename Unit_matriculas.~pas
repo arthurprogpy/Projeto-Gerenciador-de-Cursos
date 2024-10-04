@@ -349,7 +349,7 @@ begin
 
       adoquery_aux.SQL.text := sql +
                                     ' WHERE COD_TURMA = ' + QuotedStr(pk_turma) +
-                                    ' AND MATRICULAS.COD_ALUNO = ' + pk_aluno;
+                                    ' AND MATRICULAS.COD_ALUNOS = ' + pk_aluno;
 
       adoquery_aux.Open;
       edt_aluno.Text := adoquery_aux.fieldbyname('NOME').AsString;
