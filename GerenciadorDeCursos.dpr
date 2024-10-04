@@ -34,6 +34,7 @@ begin
   form_splash.Show;
   form_splash.Update;
 
+  Application.Title := 'Gerenciador de Cursos';
   Application.CreateForm(TDataModule_ConexaoDb, DataModule_ConexaoDb);
   Application.CreateForm(Tform_logon, form_logon);
   
