@@ -37,6 +37,7 @@ object form_logon: Tform_logon
     Height = 21
     MaxLength = 30
     TabOrder = 0
+    Text = 'administrador'
   end
   object edt_senha: TEdit
     Left = 92
@@ -46,6 +47,7 @@ object form_logon: Tform_logon
     MaxLength = 10
     PasswordChar = '*'
     TabOrder = 1
+    Text = 'system'
   end
   object btn_ok: TBitBtn
     Left = 184
