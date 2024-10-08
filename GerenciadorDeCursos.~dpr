@@ -21,8 +21,7 @@ uses
   Unit_rel_turmas in 'Unit_rel_turmas.pas' {Form_rel_turmas},
   Unit_rel_alunos in 'Unit_rel_alunos.pas' {Form_rel_alunos},
   Unit_rel_faltas in 'Unit_rel_faltas.pas' {Form_rel_faltas},
-  Unit_rel_aulas in 'Unit_rel_aulas.pas' {Form_rel_aulas},
-  Unit_ConexaoDB in 'Unit_ConexaoDB.pas' {DataModule_ConexaoDb: TDataModule};
+  Unit_rel_aulas in 'Unit_rel_aulas.pas' {Form_rel_aulas};
 
 {$R *.res}
 
@@ -36,7 +35,6 @@ begin
   Application.Title := 'Gerenciador de Cursos';
 
   Application.CreateForm(Tform_logon, form_logon);
-  Application.CreateForm(TDataModule_ConexaoDb, DataModule_ConexaoDb);
   if form_logon.autenticacao = false then
     Application.Terminate;
 

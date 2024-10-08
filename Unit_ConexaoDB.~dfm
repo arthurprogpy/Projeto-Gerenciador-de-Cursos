@@ -1,0 +1,7 @@
+object DataModule_ConexaoDb: TDataModule_ConexaoDb
+  OldCreateOrder = False
+  Left = 192
+  Top = 125
+  Height = 150
+  Width = 215
+end
